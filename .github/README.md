@@ -9,6 +9,9 @@ Most solutions are in C; however, I may add other unsupported languages for fun.
 > [!NOTE]
 > The unsupported languages have not been tested against Sololearn's hidden test cases.
 
+> [!WARNING]
+> The code was not made for production
+
 # Easy
 <details>
   <summary>Expand Table</summary>
