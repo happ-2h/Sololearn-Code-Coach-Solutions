@@ -1,0 +1,6 @@
+# Objects
+*.o
+
+# Executables
+*.out
+*.jar
