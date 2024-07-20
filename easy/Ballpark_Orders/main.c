@@ -22,7 +22,7 @@ int main(int argc, char const *argv[]) {
       ttl += 5.00f;
   }
 
-  fprintf(stdin, "%.2f", ttl * 1.07f);
+  fprintf(stdout, "%.2f", ttl * 1.07f);
 
   return 0;
 }

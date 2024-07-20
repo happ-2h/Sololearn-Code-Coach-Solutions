@@ -13,7 +13,7 @@ int main(int argc, char const *argv[]) {
     Calculate how many pies you can make
       nFruit / 2 / 3 => nFruit / 6
    */
-  fprintf(stdin, "%d", nFruit / 6);
+  fprintf(stdout, "%d", nFruit / 6);
 
   return 0;
 }

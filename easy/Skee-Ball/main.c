@@ -6,7 +6,7 @@ int main(int argc, char const *argv[]) {
 
   scanf("%d %d", &pts, &cost);
 
-  fprintf(stdin, "%s",
+  fprintf(stdout, "%s",
     pts / 12 >= cost ? // Did you get enough tickets ?
       "Buy it!" :      // Yes, buy it
       "Try again"      // No, keep on trying

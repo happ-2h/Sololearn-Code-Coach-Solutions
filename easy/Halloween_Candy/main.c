@@ -13,7 +13,7 @@ int main(int argc, char const *argv[]) {
     Convert the percentage to decimal
       (2 / nHouses) * 100 => 200 / nHouses
    */
-  fprintf(stdin, "%d", (int)ceil(200.0f / nHouses));
+  fprintf(stdout, "%d", (int)ceil(200.0f / nHouses));
 
   return 0;
 }
