@@ -15,7 +15,7 @@ int main(int argc, char const *argv[]) {
     We also need the total area of one roll of tape in feet
       60 * (2/12) => 60 * (1/6) = 10
 
-    Finally, we use division to find how many rools we need
+    Finally, we use division to find how many rolls we need
     Take the ceiling to not buy less than what we need
       width * height * 2 / 10 => width * height / 5
    */
