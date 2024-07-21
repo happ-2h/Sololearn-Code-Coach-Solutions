@@ -25,3 +25,6 @@ totalCandles = 9 \times numberOfFriends + 9\\
 \text{ Or }\\
 totalCandles = 9 \times (numberOfFriends + 1)\\
 $$
+
+### Benefits
+- Saves a line of calculation

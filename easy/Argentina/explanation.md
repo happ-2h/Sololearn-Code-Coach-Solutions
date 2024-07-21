@@ -48,4 +48,5 @@ $
 \text{ false: pay with Dollars }
 $
 
-Computers have an easier time multiplying integers than multiplying floating-point numbers
+### Benefits
+- Computers have an easier time multiplying integers than multiplying floating-point numbers
