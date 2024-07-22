@@ -7,7 +7,7 @@ Determine if a zip code is valid
 - Zip code contains no spaces
 
 # Inputs
-- Zip code as a string
+1. Zip code as a string
 
 # Execution
 Function to ensure each character is a number
@@ -37,7 +37,7 @@ end
 ```
 Combine the checks to make sure the zip code is valid
 ```lua
-isValid = zipcode.length == 0    and
+isValid = zipcode.length is 0    and
           isOnlyNumbers(zipcode) and
           not hasSpaces(zipcode)
 
