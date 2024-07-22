@@ -5,7 +5,7 @@ Count the number of vowels in a sentence
 - Letters can be lower or uppercase
 
 # Inputs
-- A sentence
+1. A sentence
 
 # Execution
 Iterate the string and increment a counter if we come across a vowel
