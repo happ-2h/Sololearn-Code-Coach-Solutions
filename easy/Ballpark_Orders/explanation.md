@@ -31,7 +31,13 @@ else total = total + 5
 Add the 7\% tax
 
 $$
-total = total + (total * 0.07)\\
+total = total + (total * 0.07)
+$$
+
+$$
 \text{Same as}\\
+$$
+
+$$
 total * (1.00 + 1.00 \times 0.07) \Rightarrow total * 1.07
 $$

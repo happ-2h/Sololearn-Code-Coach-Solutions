@@ -12,7 +12,10 @@ Determine which of two apartments has a larger balcony
 Calculate the area of both balconies
 
 $$
-AWidth \times AHeight = AArea \\
+AWidth \times AHeight = AArea
+$$
+
+$$
 BWidth \times BHeight = BArea
 $$
 

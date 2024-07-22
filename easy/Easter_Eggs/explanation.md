@@ -18,10 +18,6 @@ $$
 
 Compare with the total hidden eggs and decide if you need to keep on hunting
 
-$$
-totalFound < totalHidden
-$$
-
 ```lua
 if totalFound < totalHidden then
   output "Keep Hunting"

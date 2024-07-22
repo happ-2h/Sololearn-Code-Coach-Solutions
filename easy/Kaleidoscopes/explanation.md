@@ -38,9 +38,10 @@ Since the price and discount rate are fixed, we can combine them
 $$
 total - (kaleidoscopes \times 5.00 \times 0.10) \Rightarrow total - kaleidoscopes \times 0.5
 $$
-$
-\text{Can also be written as}
-$
+
+Can also be written as
+
+
 $$
 total - \frac{kaleidoscopes}{2}
 $$

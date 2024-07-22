@@ -2,7 +2,7 @@
 Find out how to communicate with aliens
 
 # Relevant Given Information
-- Their language is English except the words are backwards
+- Their language is English, except the words are backwards
 
 # Inputs
 1. English word
