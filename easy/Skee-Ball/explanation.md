@@ -10,6 +10,7 @@ Determine if you have enough tickets to get a squirt gun
 
 # Execution
 Convert points to tickets
+
 $$
 tickets = \lfloor points / 12 \rfloor
 $$

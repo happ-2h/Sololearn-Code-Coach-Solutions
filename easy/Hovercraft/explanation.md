@@ -38,8 +38,14 @@ else                    output "Broke Even"
 Since the first six zeros will never change, and we don't need the actual numbers, we can rewrite them as `nE+6`, and can safely remove `E+6` to only have `n`
 
 $$
-1,000,000 + 2,000,000 \geq 4,000,000\\
-\text{gives the same result as}\\
+1,000,000 + 2,000,000 \geq 4,000,000
+$$
+
+$$
+\text{gives the same result as}
+$$
+
+$$
 1 + 2 \geq 4
 $$
 

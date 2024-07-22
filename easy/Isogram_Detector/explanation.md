@@ -34,5 +34,5 @@ end
 ```
 
 ### Benefits
-- You only need to traverse the word once, at the expense of extra storage
+- You only need to traverse the word once, at the expense of extra storage for the map
 

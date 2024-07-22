@@ -16,14 +16,17 @@ Determine the total cost of the four ordered items
 # Execution
 Read the current item and total up the cost
 
-$
-\text{If they ordered Nachos, add 6 to the total}\\
-\text{If they ordered Chips, add 6 to the total}\\
-\text{If they ordered a Cheeseburger, add 10 to the total}\\
-\text{If they ordered a Water, add 4 to the total}\\
-\text{If they ordered a Coke, add 5 to the total}\\
-\text{If they ordered something else, add 5 (Coke) to the total}\\
-$
+```lua
+if they ordered Nachos or Chips then
+  total = total + 6
+else if they ordered a Cheeseburger then
+  total = total + 10
+else if they ordered a Water then
+  total = total + 4
+else if they ordered a Coke then
+  total = total + 5
+else total = total + 5
+```
 
 Add the 7\% tax
 

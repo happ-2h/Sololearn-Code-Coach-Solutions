@@ -14,11 +14,13 @@ Evaluate the difference between your age and your twin
 Since you never age in Neverland, your age never changes. Since your twin is the same age, the initial age is the same
 
 Since your twin does age, and left the same day he arrived, his age increases with the time elapsed
+
 $$
 twinAge = myAge + yearsPassed
 $$
 
 The difference is just the years passed
+
 $$
 difference = twinAge - myAge \Rightarrow myAge + yearsPassed - myAge \Rightarrow yearsPassed
 $$

@@ -15,14 +15,21 @@ totalCandles = numberOfFriends \times 9
 $$
 
 And add nine for yourself
+
 $$
 totalCandles = totalCandles + 9
 $$
 
 ## Alternative
 $$
-totalCandles = 9 \times numberOfFriends + 9\\
-\text{ Or }\\
+totalCandles = 9 \times numberOfFriends + 9
+$$
+
+$$
+\text{ Or }
+$$
+
+$$
 totalCandles = 9 \times (numberOfFriends + 1)\\
 $$
 

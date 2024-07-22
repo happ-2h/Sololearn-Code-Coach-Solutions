@@ -22,7 +22,10 @@ $$
 totalFound < totalHidden
 $$
 
-$
-\text{true: output "Keep Hunting"}\\
-\text{false: output "Candy Time"}
-$
+```lua
+if totalFound < totalHidden then
+  output "Keep Hunting"
+else
+  output "Candy Time"
+end
+```

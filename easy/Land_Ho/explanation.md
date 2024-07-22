@@ -10,22 +10,26 @@ Determine your wait time
 
 # Execution
 Find which group you'll fall into based on your position in line
+
 $$
 groupNumber = \lfloor \frac{peopleAhead}{20} \rfloor
 $$
 
 Find the time it will take for the groups ahead of you
+
 $$
 arrivalTime = groupNumber \times (10 + 10) \Rightarrow groupNumber \times 20
 $$
 
 Add the ten minutes it takes to get to the destination
+
 $$
 totalTime = arrivalTime + 10
 $$
 
 ## Alternative
 You can combine all the equations into one
+
 $$
 totalTime = \lfloor \frac{peopleAhead}{20} \rfloor \times 20 + 10
 $$

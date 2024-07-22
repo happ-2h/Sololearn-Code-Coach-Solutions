@@ -9,11 +9,13 @@ Calculate the sum of all the multiples of 3 or 5 below a given number
 
 # Execution
 Subtract one from the input because we need to calculate *below* the given number
+
 $$
 N = N - 1
 $$
 
 Get the sum of all multiples of 3
+
 $$
 mult3s = \sum_{i = 1}^N
 \begin{cases}
@@ -22,6 +24,7 @@ i & \quad \text{if i mod 3 = 0 })
 $$
 
 Get the sum of all multiples of 5
+
 $$
 mult5s = \sum_{i = 1}^N
 \begin{cases}
@@ -30,23 +33,27 @@ i & \quad \text{if i mod 5 = 0 })
 $$
 
 Add the result
+
 $$
 result = mult3s + mult5s
 $$
 
 Remove the duplicates produced when a multiple of 3 and 5 were added
+
 $$
 multDups = \sum_{i = 1}^N
 \begin{cases}
 i & \quad \text{if i mod 15 = 0 })
 \end{cases} \\
 $$
+
 $$
 finalResult = result - multDups
 $$
 
 ## Alternative
 You can use the derived summation formula instead of a loop
+
 $$
 sum(n) = \frac{n \times (n + 1) }{2} \Rightarrow \frac{n \times n + n}{2}
 $$
@@ -64,23 +71,22 @@ for i = 1 below N do
   else skip i end
 end
 ```
-$
-\text{Example for 3. It is the same for 5 and 15}
-$
+Example for 3. It is the same for 5 and 15
+
 $$
 3 + 6 + 9 + ... + N
 $$
-$
-\text{Is the same as}
-$
+
+Is the same as
+
 $$
 3 \times (\frac{3}{3} + \frac{6}{3} + \frac{9}{3} + ... + \frac{N}{3}) \Rightarrow 3 \times (1 + 2 + 3 + .. + \frac{N}{3})
 $$
-$
-\text{Which shows we only need to sum up the first 1/3 of N }
-$
+
+Which shows we only need to sum up the first 1/3 of N
 
 New formula
+
 $$
 finalResult = 3 \times sum(N / 3) + 5 \times sum(N / 5) - 15 \times sum(N / 15)
 $$

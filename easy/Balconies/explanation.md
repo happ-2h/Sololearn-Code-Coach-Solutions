@@ -10,16 +10,22 @@ Determine which of two apartments has a larger balcony
 
 # Execution
 Calculate the area of both balconies
+
 $$
 AWidth \times AHeight = AArea \\
 BWidth \times BHeight = BArea
 $$
 
 Determine which is bigger
+
 $$
 AArea < BArea
 $$
-$
-\text{true: output "Apartment B"}\\
-\text{false: output "Apartment A"}\\
-$
+
+```lua
+if AArea < BArea then
+  output "Apartment A"
+else
+  output "Apartment B"
+end
+```

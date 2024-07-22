@@ -26,9 +26,11 @@ Divide the areas and take the ceiling to buy the right amount
 $$
 \lceil{\frac{doorArea}{tapeArea}}\rceil \\
 $$
+
 $$
 \text{ Or }
 $$
+
 $$
 \lceil\frac{width \times height \times 2}{10}\rceil \Rightarrow \lceil\frac{width \times height}{5}\rceil
 $$

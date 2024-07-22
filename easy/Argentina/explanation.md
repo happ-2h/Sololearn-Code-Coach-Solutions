@@ -17,13 +17,13 @@ $$
 
 Check which is lower
 
-$$
-pesosToDollars < priceInDollars
-$$
-$
-\text{ true: pay with Pesos    }\\
-\text{ false: pay with Dollars }
-$
+```lua
+if pesosToDollars < priceInDollars then
+  output "Pesos"
+else
+  output "Dollars"
+end
+```
 
 ## Alternative
 Convert dollars to pesos
@@ -31,9 +31,11 @@ Convert dollars to pesos
 $$
 P \times 0.02 = D\\
 $$
+
 $$
 \frac{P \times 0.02}{0.02} = D \times \frac{1}{0.02}
 $$
+
 $$
 P = D \times 50
 $$
@@ -43,10 +45,6 @@ Check which is lower
 $$
 P < D \times 50
 $$
-$
-\text{ true: pay with Pesos    }\\
-\text{ false: pay with Dollars }
-$
 
 ### Benefits
 - Computers have an easier time multiplying integers than multiplying floating-point numbers
