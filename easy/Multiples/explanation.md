@@ -54,11 +54,15 @@ $$
 You can reduce the calculation since we don't sum all the numbers below **N**.
 
 ```lua
+--[[
+  Don't use this in your code!
+  Shows we skip numbers and waste
+  iterations in doing so
+--]]
 for i = 1 below N do
   if i mod 3 is 0 then add i end
   else skip i end
 end
-
 ```
 $
 \text{Example for 3. It is the same for 5 and 15}
@@ -78,7 +82,7 @@ $
 
 New formula
 $$
-finalResult = 3 \times sum(N) + 5 \times sum(N) - 15 \times sum(N)
+finalResult = 3 \times sum(N / 3) + 5 \times sum(N / 5) - 15 \times sum(N / 15)
 $$
 
 ### Benefits
