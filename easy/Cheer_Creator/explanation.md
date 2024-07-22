@@ -14,6 +14,6 @@ Output the appropriate cheer based on yards gained or lost
 
 ```lua
 if      yards > 10 then  output "High Five"
-else if yards >  1 then  output "shh"
+else if yards <  1 then  output "shh"
 else foreach yard  then  output "Ra!"
 ```
