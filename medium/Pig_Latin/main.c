@@ -14,6 +14,11 @@ int main(int argc, char const *argv[]) {
 
   pch = strtok(sentence, " ");
 
+  /*
+    Print the word after the first character
+    Print the first character after
+    Lastly, print "ay "
+   */
   while(pch) {
     fprintf(stdout, "%s%cay ", pch + 1, *pch);
     pch = strtok(NULL, " ");
