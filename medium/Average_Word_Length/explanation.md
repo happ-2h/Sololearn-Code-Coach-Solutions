@@ -6,7 +6,7 @@ Figure out the average length of all the words
 - Round up to the nearest whole number
 
 # Inputs
-- String containing multiple words
+1. String containing multiple words
 
 # Execution
 The average is the sum of all letters divided by the sum of all words; therefore, we need to find out how many of each there are
