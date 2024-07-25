@@ -5,7 +5,7 @@ Clean up symbols from input
 - Output should only be numbers and letters
 
 # Inputs
-1. String wit hrandom symbols
+1. String with random symbols
 
 # Execution
 Go through the string. If it's a letter, numeral, or space, print it; otherwise skip it

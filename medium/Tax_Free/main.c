@@ -11,7 +11,7 @@ int main(int argc, char const *argv[]) {
     Else pay with 7% tax
    */
   while(scanf("%lf,", &price) == 1)
-    ttl += price > 20.0f ? price : price * 1.07;
+    ttl += price >= 20.0f ? price : price * 1.07;
 
   fprintf(stdout, "%.2lf", ttl);
 
