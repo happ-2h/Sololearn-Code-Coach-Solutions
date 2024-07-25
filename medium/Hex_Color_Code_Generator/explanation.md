@@ -41,3 +41,11 @@ end
 output '#' + printDecToHex(R) +
              printDecToHex(G) +
              printDecToHex(B)
+```
+
+## Alternative
+Many programming languages have functionality to print a decimal number to hex
+
+```lua
+output '#' + hex(R) + hex(G) + hex(B)
+```
