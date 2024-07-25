@@ -8,7 +8,7 @@ Determine the total number of moves needed between two points on a map
 - 'X' are spaces between points
 
 # Inputs
-- String representing the 2D space
+1. String representing the 2D space
 
 # Execution
 Find the coordinates of the two points in the 2D space

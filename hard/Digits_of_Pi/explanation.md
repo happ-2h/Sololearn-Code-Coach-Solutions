@@ -5,7 +5,7 @@ Find the Nth decimal digit of Pi
 - $0 < N < 1000$
 
 # Inputs
-- Integer N
+1. Integer N
 
 # Execution
 You can use a formula to find Pi to the Nth digit; however, it may take up a lot of resources
