@@ -18,7 +18,7 @@ int main(int argc, char const *argv[]) {
     if (strncmp(name, names[i], STRLEN_MAX) > 0) ++pos;
 
   /*
-    There are many agents seeing multiplt people
+    There are many agents seeing multiple people
     at a time, so we have to find out the group
     we are in
       groupNumber = ⌊positionInLine / numberOfAgents⌋
