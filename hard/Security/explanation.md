@@ -16,11 +16,11 @@ Review the diagrams to make sure you have a guard between the thief and the mone
 # Execution
 Traverse the diagram.
 
-If you come across '$' first, continue on until you hit 'T' or 'G'. 'T' sets the alarm.
+If you come across '\$' first, continue on until you hit 'T' or 'G'. 'T' sets the alarm.
 
-If you come across 'G' first, continue on until you hit '$' or 'T'. Both set the alarm
+If you come across 'G' first, continue on until you hit '\$' or 'T'. Both set the alarm
 
-If you come across 'T' first, continue on until you hit 'G' or '$'. '$' sets the alarm
+If you come across 'T' first, continue on until you hit 'G' or '\$'. '\$' sets the alarm
 
 ```lua
 first = ''
