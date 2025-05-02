@@ -37,7 +37,7 @@ end
 ```
 Combine the checks to make sure the zip code is valid
 ```lua
-isValid = zipcode.length is 0    and
+isValid = zipcode.length is 5    and
           isOnlyNumbers(zipcode) and
           not hasSpaces(zipcode)
 
