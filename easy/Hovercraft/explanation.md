@@ -49,8 +49,29 @@ $$
 1 + 2 \geq 4
 $$
 
+Combining constants can reduce the number of calculations needed
+
+$$
+paymentsPerMonth = 10 \times 2 + 1 \rArr 21 \newline
+profit = 21 - hovercraftsSold \times 3 \newline
+$$
+
+Break even when profit is 0
+
+$$
+0 = 21 - hovercraftsSold \times 3 \newline
+-21 = -hovercraftsSold \times 3 \newline
+\frac{-21}{-3} = hovercraftsSold \newline
+7 = hovercraftsSold \newline
+\text{Break even when 7 hovercrafts have been sold}
+$$
+
+
+
+
 ### Benefits
 - Some CPUs have lower cycle latency for smaller numbers (in respect to bit sizes)
   - Rarely matters with modern CPUs. 32 or 64-bit calculations may be more efficient than 8-bit or 16-bit calculations on the same CPU
 - Prevents overflow (with anything under 32-bits)
 - Easier to read
+- Comparing input to 7 requires no calculations
