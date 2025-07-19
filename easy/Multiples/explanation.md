@@ -19,7 +19,7 @@ Get the sum of all multiples of 3
 $$
 mult3s = \sum_{i = 1}^N
 \begin{cases}
-i & \quad \text{if i mod 3 = 0 })
+i & \quad \text{if i mod 3 = 0 }
 \end{cases}
 $$
 
@@ -28,7 +28,7 @@ Get the sum of all multiples of 5
 $$
 mult5s = \sum_{i = 1}^N
 \begin{cases}
-i & \quad \text{if i mod 5 = 0 })
+i & \quad \text{if i mod 5 = 0 }
 \end{cases}
 $$
 
@@ -43,7 +43,7 @@ Remove the duplicates produced when a multiple of 3 and 5 were added
 $$
 multDups = \sum_{i = 1}^N
 \begin{cases}
-i & \quad \text{if i mod 15 = 0 })
+i & \quad \text{if i mod 15 = 0 }
 \end{cases} \\
 $$
 
