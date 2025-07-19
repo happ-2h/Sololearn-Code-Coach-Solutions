@@ -30,7 +30,7 @@ loss:
 
 // Print result
 endif:
-  mov w0, #0
+  mov w0, #1
   mov w8, #64
   svc 0
 
