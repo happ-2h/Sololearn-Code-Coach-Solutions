@@ -21,7 +21,7 @@ _start:
 
   // Does the string contain only numbers ?
   /*
-    Note: 
+    Note:
       spaces are not numbers, therefore it
       returns false when a space is encountered
    */
@@ -54,6 +54,16 @@ exit:
   mov w8, #93
   svc 0
 
+/**
+ * @fn isOnlyNums
+ *
+ * @brief Checks if a string is only numbers
+ *
+ * @param[in] x0: String to check
+ *
+ * @returns   0 if the string contains a non-number;
+ *            1 if the string is all numbers
+ */
 isOnlyNums:
   stp x29, x30, [sp, #-16]!
 
@@ -82,6 +92,15 @@ isOnlyNums_exit:
   ldp x29, x30, [sp], #16
   ret
 
+/**
+ * @fn strlen
+ *
+ * @brief Calculates the length of the given string
+ *
+ * @param[in] x0: String to check
+ *
+ * @returns Length of the string
+ */
 strlen:
   stp x29, x30, [sp, #-16]!
 
