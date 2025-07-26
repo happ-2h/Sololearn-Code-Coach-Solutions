@@ -72,6 +72,7 @@ mod_10:
   subs w0, w5, w1
   b.eq valid
 
+// Print "not"
 not_valid:
   mov w0, #1
   ldr x1, =str_not
@@ -79,6 +80,7 @@ not_valid:
   mov w8, #64
   svc 0
 
+// Print "valid"
 valid:
   mov w0, #0
   ldr x1, =str_valid
@@ -94,14 +96,14 @@ exit:
 /**
  * @brief Counts the number of characters in a string
  *
- * @param[in]: Address of the string
+ * @param[in] x0 - Address of the string
  *
- * returns Number of characters in the provided string
+ * @returns Number of characters in the provided string
  */
 strlen:
   stp x29, x30, [sp, #-16]!
 
-  mov w5, #0
+  mov w5, #0 // Counter
 strlen_while:
   ldrb w1, [x0], #1
   // Exit on null terminator or newline
@@ -113,6 +115,7 @@ strlen_while:
   cmp w5, #32
   b.eq strlen_exit
 
+  // Increment counter
   add w5, w5, #1
 
   b strlen_while

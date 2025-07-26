@@ -1,5 +1,5 @@
 /*
-  Compiled and ran with Qualcomm Snapdragon 865
+  Compiled and ran on Qualcomm Snapdragon 865
 
   Result stored in d0
  */

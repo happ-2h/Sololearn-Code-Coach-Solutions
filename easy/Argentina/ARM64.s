@@ -21,7 +21,7 @@ _start:
   mov x2, #8
   b endif
 
-  // Yes: Pesos < Dollars
+// Yes: Pesos < Dollars
 pLTd:
   ldr x1, =str_pesos
   mov x2, #6

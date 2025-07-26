@@ -19,12 +19,7 @@ _start:
   cmp  w0, #5
   b.ne start_false
 
-  // Does the string contain only numbers ?
-  /*
-    Note:
-      spaces are not numbers, therefore it
-      returns false when a space is encountered
-   */
+  // Does the string strictly contain only numbers ?
   ldr x0, =str_zipCode
   bl  isOnlyNums
 
@@ -55,11 +50,9 @@ exit:
   svc 0
 
 /**
- * @fn isOnlyNums
- *
  * @brief Checks if a string is only numbers
  *
- * @param[in] x0: String to check
+ * @param[in] x0 - String to check
  *
  * @returns   0 if the string contains a non-number;
  *            1 if the string is all numbers
@@ -76,6 +69,7 @@ isOnlyNums_for:
   cmp  w1, #'9'
   b.gt isOnlyNums_false
 
+  // Decrement counter
   subs w5, w5, #1
   b.ne isOnlyNums_for
 
@@ -93,11 +87,9 @@ isOnlyNums_exit:
   ret
 
 /**
- * @fn strlen
- *
  * @brief Calculates the length of the given string
  *
- * @param[in] x0: String to check
+ * @param[in] x0 - String to check
  *
  * @returns Length of the string
  */

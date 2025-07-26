@@ -34,7 +34,7 @@ for:
 
   b for
 
-// Print false
+// Print "false"
 false:
   mov w0, #1
   ldr x1, =str_false
@@ -44,7 +44,7 @@ false:
 
   b exit
 
-// Print true
+// Print "true"
 true:
   mov w0, #1
   ldr x1, =str_true

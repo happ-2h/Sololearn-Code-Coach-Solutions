@@ -18,7 +18,7 @@ _start:
 while:
   // Did we reach the end of the input string ?
   ldrb w2, [x1], #1
-  cmp w2, #0x0A
+  cmp  w2, #0x0A
   b.eq exit
 
   orr w2, w2, #0x20 // To lowercase

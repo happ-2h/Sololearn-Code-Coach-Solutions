@@ -10,7 +10,7 @@ _start:
   sub w5, w5, #1 // Sum does not include N
 
   // Parameter n / 3
-  mov w4, #3
+  mov  w4, #3
   sdiv w0, w5, w4
   bl sum
 
@@ -18,7 +18,7 @@ _start:
   mul w1, w0, w4
 
   // Parameter n / 5
-  mov w4, #5
+  mov  w4, #5
   sdiv w0, w5, w4
   bl sum
 
@@ -26,7 +26,7 @@ _start:
   mul w2, w0, w4
 
   // Parameter n / 15
-  mov w4, #15
+  mov  w4, #15
   sdiv w0, w5, w4
   bl sum
 
@@ -45,7 +45,7 @@ exit:
  * @brief Calculates the sum of natural numbers
  *        from 1 to n
  *
- * @param[in] x0: Last number of the summation
+ * @param[in] x0 - Last number of the summation
  *
  * @returns Calculated summation n(n + 1) / 2
  */

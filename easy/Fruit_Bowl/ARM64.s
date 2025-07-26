@@ -9,7 +9,7 @@ _start:
   mov w0, #26 // Total fruit in bowl
 
   // Number of pies = total / 6
-  mov w1, #6
+  mov  w1, #6
   sdiv w0, w0, w1
 
 exit:

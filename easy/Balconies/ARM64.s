@@ -27,8 +27,8 @@ _start:
 
   b endif
 
+// Yes: Area of A < B
 aLTb:
-  // Yes: Area of A < B
   ldr x1, =str_b
   mov w2, #2
 

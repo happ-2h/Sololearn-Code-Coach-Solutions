@@ -7,10 +7,11 @@ _start:
   mov w5, #3  // Number of yards
   mov w8, #64 // syswrite
 
-  // Comapre number of yards
+  // Number of yards > 5 ?
   cmp w5, #10
   b.gt highFive
 
+  // No: number of yards < 1 ?
   cmp w5, #1
   b.lt shh
 

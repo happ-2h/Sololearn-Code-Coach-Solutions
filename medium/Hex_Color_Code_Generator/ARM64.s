@@ -5,12 +5,12 @@
 
 _start:
   // Print '#'
-  mov w0, #1
-  ldr x1, =results
-  mov w2, #'#'
+  mov  w0, #1
+  ldr  x1, =results
+  mov  w2, #'#'
   strb w2, [x1]
-  mov w2, #1
-  mov w8, #64
+  mov  w2, #1
+  mov  w8, #64
   svc 0
 
   // Evaluate and print Red value
@@ -63,21 +63,15 @@ saveInt:
 
 endif:
   strb w1, [x5], #-1 // Save character
-  lsr w0, w0, #4     // n = n / 16
+  lsr  w0, w0, #4    // n = n / 16
 
   b while
 
 printResult:
-  // Print second character
   mov w0, #1
   ldr x1, =results
-  mov w2, #1
+  mov w2, #2
   mov w8, #64
-  svc 0
-
-  // Print first character
-  mov w0, #0
-  add x1, x1, #1
   svc 0
 
   mov x0, #0

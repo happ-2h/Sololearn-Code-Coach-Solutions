@@ -4,10 +4,10 @@
   .global _start
 
 _start:
-  mov w0, #500 // Points scored
-  mov w1, #40  // Cost of squirt gun
+  mov w0, #500    // Points scored
+  mov w1, #40     // Cost of squirt gun
 
-  mov w2, #12     // 12 points = 1 ticket
+  mov  w2, #12    // 12 points = 1 ticket
   sdiv w0, w0, w2 // Number of tickets earned
 
   // Tickets >= cost ?
