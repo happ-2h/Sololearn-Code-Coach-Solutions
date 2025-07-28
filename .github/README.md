@@ -68,25 +68,25 @@ Most solutions are in C; however, I may add other unsupported languages for fun.
 | [Flowing Words](../medium/Flowing_Words/explanation.md) | ✓ | ✓ |
 | [Hex Color Code Generator](../medium/Hex_Color_Code_Generator/explanation.md) | ✓ | ✓ |
 | [How Far?](../medium/How_Far/explanation.md) | ✓ | ✓ |
-| [Initials](../medium/Initials/explanation.md) | ✓ |
-| [Military Time](../medium/Military_Time/explanation.md) | ✓ |
-| [Missing Numbers](../medium/Missing_Numbers/explanation.md) | ✓ |
-| [Name Buddy](../medium/Name_Buddy/explanation.md) | ✓ |
-| [No Numerals](../medium/No_Numerals/explanation.md) | ✓ |
-| [Pig Latin](../medium/Pig_Latin/explanation.md) | ✓ |
-| [Roadrunner](../medium/Roadrunner/explanation.md) | ✓ |
-| [Safety Deposit Boxes](../medium/Safety_Deposit_Boxes/explanation.md) | ✓ |
-| [Secret Message](../medium/Secret_Message/explanation.md) | ✓ |
-| [Snap, Crackle and Pop](../medium/Snap_Crackle_and_Pop/explanation.md) | ✓ |
-| [Snowballing Numbers](../medium/Snowballing_Numbers/explanation.md) | ✓ |
-| [Splitting Strings](../medium/Splitting_Strings/explanation.md) | ✓ |
-| [Super Sale](../medium/Super_Sale/explanation.md) | ✓ |
-| [Symbols](../medium/Symbols/explanation.md) | ✓ |
-| [Tax Free](../medium/Tax_Free/explanation.md) | ✓ |
-| [Text Decompressor](../medium/Text_Decompressor/explanation.md) | ✓ |
-| [That's Odd...](../medium/Thats_Odd/explanation.md) | ✓ |
-| [The Spy Life](../medium/The_Spy_Life/explanation.md) | ✓ |
-| [YouTube Link Finder](../medium/YouTube_Link_Finder/explanation.md) | ✓ |
+| [Initials](../medium/Initials/explanation.md) | ✓ | x |
+| [Military Time](../medium/Military_Time/explanation.md) | ✓ | x |
+| [Missing Numbers](../medium/Missing_Numbers/explanation.md) | ✓ | x |
+| [Name Buddy](../medium/Name_Buddy/explanation.md) | ✓ | ✓ |
+| [No Numerals](../medium/No_Numerals/explanation.md) | ✓ | x |
+| [Pig Latin](../medium/Pig_Latin/explanation.md) | ✓ | x |
+| [Roadrunner](../medium/Roadrunner/explanation.md) | ✓ | ✓ |
+| [Safety Deposit Boxes](../medium/Safety_Deposit_Boxes/explanation.md) | ✓ | x |
+| [Secret Message](../medium/Secret_Message/explanation.md) | ✓ | ✓ |
+| [Snap, Crackle and Pop](../medium/Snap_Crackle_and_Pop/explanation.md) | ✓ | ✓ |
+| [Snowballing Numbers](../medium/Snowballing_Numbers/explanation.md) | ✓ | x |
+| [Splitting Strings](../medium/Splitting_Strings/explanation.md) | ✓ | x |
+| [Super Sale](../medium/Super_Sale/explanation.md) | ✓ | ✓ |
+| [Symbols](../medium/Symbols/explanation.md) | ✓ | ✓ |
+| [Tax Free](../medium/Tax_Free/explanation.md) | ✓ | ✓ |
+| [Text Decompressor](../medium/Text_Decompressor/explanation.md) | ✓ | ✓ |
+| [That's Odd...](../medium/Thats_Odd/explanation.md) | ✓ | ✓ |
+| [The Spy Life](../medium/The_Spy_Life/explanation.md) | ✓ | ✓ |
+| [YouTube Link Finder](../medium/YouTube_Link_Finder/explanation.md) | ✓ | ✓ |
 
 </details>
 
