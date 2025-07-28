@@ -28,3 +28,12 @@ for i = pos + 1 to |url| do
   output url[i]
 end
 ```
+
+## Alternative
+Video IDs are always 11 characters *and* at the end of the string
+```lua
+-- Revert the url pointer 11 characters back
+-- Note: may have to go back additional characters due to null terminators and/or newlines
+url = |url| - 11
+output url
+```
