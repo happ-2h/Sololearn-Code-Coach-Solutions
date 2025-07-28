@@ -48,7 +48,9 @@ $$
 You can condense the calculations into one
 
 $$
-finalTime = 20 + 20 * \lfloor \frac{position}{numberOfAgents} \rfloor
+finalTime = 20 + 20 \times \lfloor \frac{position}{numberOfAgents} \rfloor \newline
+\text{or} \newline
+finalTime = 20 \times (1 + \lfloor \frac{position}{numberOfAgents} \rfloor)
 $$
 
 ### Benefits
