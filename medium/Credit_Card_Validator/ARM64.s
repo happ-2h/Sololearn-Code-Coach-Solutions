@@ -11,11 +11,9 @@ _start:
   mov w8, #63
   svc 0
 
-  mov x0, x1
-  bl strlen
-
   // CCN must be 16 characters
-  cmp x0, #16
+  sub  w0, w0, #1 // Remove newline from length
+  cmp  x0, #16
   b.ne not_valid
 
   // Convert characters to integers
@@ -26,7 +24,7 @@ convert:
   ldrb w2, [x0], #1
   sub  w3, w2, #'0'
   // Character is not '0' - '9'
-  cmp w3, #10
+  cmp  w3, #10
   b.ge not_valid
 
   // Save number
@@ -61,8 +59,8 @@ add_for:
   ldr w2, [x0, x1, lsl #2]
   add w5, w5, w2
 
-  add w1, w1, #1
-  cmp w1, #16
+  add  w1, w1, #1
+  cmp  w1, #16
   b.ne add_for
 
 mod_10:
@@ -92,38 +90,6 @@ exit:
   mov w0, #0
   mov w8, #93
   svc 0
-
-/**
- * @brief Counts the number of characters in a string
- *
- * @param[in] x0 - Address of the string
- *
- * @returns Number of characters in the provided string
- */
-strlen:
-  stp x29, x30, [sp, #-16]!
-
-  mov w5, #0 // Counter
-strlen_while:
-  ldrb w1, [x0], #1
-  // Exit on null terminator or newline
-  cmp w1, #0
-  b.eq strlen_exit
-  cmp w1, #'\n'
-  b.eq strlen_exit
-  // Exit when reached max string length
-  cmp w5, #32
-  b.eq strlen_exit
-
-  // Increment counter
-  add w5, w5, #1
-
-  b strlen_while
-
-strlen_exit:
-  mov w0, w5
-  ldp x29, x30, [sp], #16
-  ret
 
 .data
 ccn:       .fill 32, 1, 0
