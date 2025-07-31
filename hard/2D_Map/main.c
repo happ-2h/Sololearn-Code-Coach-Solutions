@@ -19,8 +19,8 @@ int abs(int n) {
 int main(int argc, char const *argv[]) {
   char space[STRLEN_MAX];
 
-  int x = 0;
-  int y = 0;
+  int x  = 0;
+  int y  = 0;
   int pn = 0; // 'P' number
   int coords[] = { 0, 0, 0, 0 };
 
@@ -31,13 +31,14 @@ int main(int argc, char const *argv[]) {
   ) {
     if (*pch == 'P') {
       if (pn == 0) {
-        coords[pn] = x;
-        coords[++pn] = y;
+        coords[0] = x;
+        coords[1] = y;
+        ++pn;
         ++x;
       }
       else {
-        coords[pn] = x;
-        coords[pn+1] = y;
+        coords[2] = x;
+        coords[3] = y;
         ++x;
         break;
       }
