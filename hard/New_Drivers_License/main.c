@@ -21,7 +21,7 @@ int main(int argc, char const *argv[]) {
     There are many agents seeing multiple people
     at a time, so we have to find out the group
     we are in
-      groupNumber = ⌊positionInLine / numberOfAgents⌋
+      groupNumber = ⌋positionInLine / numberOfAgents⌊
 
     It takes 20 minutes per group
       time = 20 * groupNumber

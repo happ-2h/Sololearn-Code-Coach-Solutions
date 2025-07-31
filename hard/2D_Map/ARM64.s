@@ -10,7 +10,6 @@
 
   .global _start
 
-
 _start:
   // Allocate space on stack for 3 words
   sub sp, sp, #16
@@ -138,7 +137,7 @@ exit:
 /*
  * @brief Find the absolute value of the given number
  *
- * @param[in]: x0 - Number to find the absolute value of
+ * @param[in] x0 - Number to find the absolute value of
  *
  * @returns The absolute value of the given number
  */

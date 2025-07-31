@@ -7,7 +7,6 @@ int main(int argc, char const *argv[]) {
   int n = 0;
 
   scanf("%d", &n);
-
   printf("%c", pi[n]);
 
   return 0;

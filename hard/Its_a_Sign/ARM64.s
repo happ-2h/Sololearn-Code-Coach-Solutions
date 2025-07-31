@@ -110,7 +110,7 @@ exit:
  * @brief Checks if a string is a palindrome
  *
  * @param[in] x0 - Pointer to the string
- * @param[in] x1 - Length of the string
+ * @param[in] x1 - Length  of the string
  *
  * @returns   0 if not a palindrome; 1 otherwise
  */
@@ -118,7 +118,7 @@ checkPal:
   stp x29, x30, [sp, #-16]!
 
   // Is n <= 1 ?
-  cmp w1, #1
+  cmp  w1, #1
   b.le checkPal_false
 
 // No: check if palindrome
@@ -130,7 +130,7 @@ checkPal_pal_while:
   // Have the pointers overlapped ?
   cmp  w4, w5
   b.ge checkPal_true
-  
+
   // No: continue comparing
   ldrb w2, [x0, x4] // str[lptr]
   ldrb w3, [x0, x5] // str[rptr]

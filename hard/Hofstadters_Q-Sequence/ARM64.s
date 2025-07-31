@@ -7,7 +7,7 @@
 
 _start:
   mov w0, #5 // N-th sequence
-  bl q
+  bl  q
 
 exit:
   mov w0, #0
@@ -45,7 +45,7 @@ q_else:
   bl  q            // q(n - 1)
 
   // n - q(n - 1)
-  ldr w1, [fp]     // retrieve local n
+  ldr w1, [fp]     // Retrieve local n
   sub w0, w1, w0   // n - result
   bl  q            // q(result)
   str w0, [fp, #4] // Save result for future addition
