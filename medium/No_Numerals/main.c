@@ -22,15 +22,15 @@ int main(int argc, char const *argv[]) {
       // If < 10 encountered
       else {
         switch(phrase[i]) {
-          case '1': fprintf(stdout, "one"); break;
-          case '2': fprintf(stdout, "two"); break;
+          case '1': fprintf(stdout, "one");   break;
+          case '2': fprintf(stdout, "two");   break;
           case '3': fprintf(stdout, "three"); break;
-          case '4': fprintf(stdout, "four"); break;
-          case '5': fprintf(stdout, "five"); break;
-          case '6': fprintf(stdout, "six"); break;
+          case '4': fprintf(stdout, "four");  break;
+          case '5': fprintf(stdout, "five");  break;
+          case '6': fprintf(stdout, "six");   break;
           case '7': fprintf(stdout, "seven"); break;
           case '8': fprintf(stdout, "eight"); break;
-          case '9': fprintf(stdout, "nine"); break;
+          case '9': fprintf(stdout, "nine");  break;
           default: puts("Unknown number encountered"); break;
         }
       }

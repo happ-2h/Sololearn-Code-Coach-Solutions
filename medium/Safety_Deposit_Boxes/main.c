@@ -6,10 +6,10 @@
 int main(int argc, char const *argv[]) {
   char items[STRLEN_MAX];
   char item[STRLEN_MAX];
-  int time = 0;
+  int  time = 0;
 
   fgets(items, STRLEN_MAX, stdin);
-  fgets(item, STRLEN_MAX, stdin);
+  fgets(item,  STRLEN_MAX, stdin);
 
   // Replace newline with null terminator
   char* pch = strrchr(items, '\n');

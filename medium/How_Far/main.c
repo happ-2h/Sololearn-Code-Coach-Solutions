@@ -4,7 +4,7 @@
 
 int main(int argc, char const *argv[]) {
   char input[STRLEN_MAX];
-  int foundH = 0; // Did we find the house
+  int foundH  = 0; // Did we find the house
   int nBlocks = 0;
 
   scanf("%s", input);

@@ -18,7 +18,7 @@ while:
   ldrb w0, [x1], #1
 
   // Check if reached end of string
-  cmp  w0, #'0'
+  cmp  w0, #0
   b.eq exit
   cmp  w0, #'\n'
   b.eq exit

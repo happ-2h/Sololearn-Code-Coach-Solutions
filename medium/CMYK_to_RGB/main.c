@@ -7,7 +7,7 @@
  *
  * @param[in] n: number to round
  *
- * @returns the number rounded up or down
+ * @returns The number rounded up or down
  */
 int round(double n) {
   return (int)(n < 0 ? n - 0.5 : n + 0.5);

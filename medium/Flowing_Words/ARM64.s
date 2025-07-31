@@ -15,13 +15,13 @@ _start:
 for:
   ldrb w1, [x0], #1
   // If reached end of string, sentence is flowing
-  cmp w1, #0
+  cmp  w1, #0
   b.eq true
-  cmp w1, #'\n'
+  cmp  w1, #'\n'
   b.eq true
 
   // Check for space character
-  cmp w1, #' '
+  cmp  w1, #' '
   b.ne for
 
   // Compare current character with one before the space
@@ -29,7 +29,7 @@ for:
   ldrb w2, [x0, #-2]
 
   // If not the same, the sentence is not flowing
-  cmp w1, w2
+  cmp  w1, w2
   b.ne false
 
   b for

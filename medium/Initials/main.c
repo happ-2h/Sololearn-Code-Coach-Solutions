@@ -3,7 +3,7 @@
 #define STRLEN_MAX 0xFF
 
 int main(int argc, char const *argv[]) {
-  int nNames = 0;
+  int  nNames = 0;
   char name[STRLEN_MAX];
   char initials[STRLEN_MAX];
 

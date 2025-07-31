@@ -17,7 +17,7 @@ for:
   strb w0, [x2]     // Save character into temp
 
   // Check if reached end of string
-  cmp  w0, #'\0'
+  cmp  w0, #0
   b.eq exit
   cmp  w0, #'\n'
   b.eq exit
@@ -39,7 +39,7 @@ doWhile:
   // Has the number reached '0' ?
   cmp  w5, #'0'
   b.eq cleanup // Yes: cleanup
-  b doWhile    // No: keep on printing
+  b    doWhile // No: keep on printing
 
 cleanup:
   // Restore text and temp addresses

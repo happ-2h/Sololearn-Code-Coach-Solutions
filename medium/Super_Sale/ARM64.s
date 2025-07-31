@@ -22,12 +22,12 @@ sum:
 
   subs w5, w5, #1
   b.eq calculate
-  b while
+  b    while
 
 // Save largest value
 saveLargest:
   str d0, [x1]
-  b sum
+  b   sum
 
 calculate:
   ldr  d1, [x1]   // Retrieve max

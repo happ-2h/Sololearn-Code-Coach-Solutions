@@ -22,13 +22,13 @@ _start:
 while:
   ldrb w0, [x1], #1
   // Check for end of string
-  cmp w0, #'\n'
+  cmp  w0, #'\n'
   b.eq printResult
-  cmp w0, #0
+  cmp  w0, #0
   b.eq printResult
 
   // Is character capital ?
-  cmp w0, #'A'
+  cmp  w0, #'A'
   b.ge capital
 
 // Add character to output buffer
@@ -36,17 +36,17 @@ addChar:
   strb w0, [x2], #1
 
   b while
-  
+
 capital:
   // Is it within A - Z inclusive ?
-  cmp w0, #'Z'
+  cmp  w0, #'Z'
   b.gt addChar // No: add to output buffer
 
-  // Yes: add _ and lowercased character to output buffer
+  // Yes: add '_' and lowercased character to output buffer
   strb w5, [x2], #1
   orr  w0, w0, #0x20
   strb w0, [x2], #1
-  
+
   b while
 
 printResult:

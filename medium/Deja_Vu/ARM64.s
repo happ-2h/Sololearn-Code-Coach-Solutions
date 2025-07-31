@@ -15,9 +15,9 @@ _start:
 for:
   ldrb w0, [x1], #1
   // If reached end of string, then no duplicates found
-  cmp w0, #0
+  cmp  w0, #0
   b.eq unique
-  cmp w0, #'\n'
+  cmp  w0, #'\n'
   b.eq unique
 
   // Convert letter to corresponding bit index
@@ -26,8 +26,8 @@ for:
   lsl w2, w3, w0
 
   // Test if bit is set in bitmap
-  ldr w6, [x5]
-  tst w6, w2
+  ldr  w6, [x5]
+  tst  w6, w2
   b.ne deja_vu // If set, string is not unique
 
   // Save bit with other set bits

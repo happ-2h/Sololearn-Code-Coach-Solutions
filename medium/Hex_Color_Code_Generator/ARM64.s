@@ -16,17 +16,17 @@ _start:
   // Evaluate and print Red value
   ldr x0, =value_R
   ldr w0, [x0]
-  bl printDecToHex
+  bl  printDecToHex
 
   // Evaluate and print Green value
   ldr x0, =value_G
   ldr w0, [x0]
-  bl printDecToHex
+  bl  printDecToHex
 
   // Evaluate and print Blue value
   ldr x0, =value_B
   ldr w0, [x0]
-  bl printDecToHex
+  bl  printDecToHex
 
 exit:
   mov w0, #0
@@ -45,13 +45,13 @@ printDecToHex:
   ldr x5, =results
   add x5, x5, #1
 while:
-  cmp w0, #0
+  cmp  w0, #0
   b.eq printResult
 
   and w1, w0, #15    // n % 16
 
   // If remainder < 10, save as '0' - '9'
-  cmp w1, #10
+  cmp  w1, #10
   b.lt saveInt
 
   add w1, w1, #55    // Otherwise save as 'A' - 'F'

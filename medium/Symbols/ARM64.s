@@ -39,16 +39,16 @@ printChar:
   svc 0
 
   b inc
-  
+
 exit:
   mov w0, #0
   mov w8, #93
   svc 0
 
-/*
+/**
  * @brief Check if a character is alphanumeric
  *
- * @param[in]: x0 - Character to check
+ * @param[in] x0 - Character to check
  *
  * @returns 1 if character is alphanumeric; 0 otherwise
  */
@@ -58,9 +58,9 @@ isalnum:
   orr w0, w0, #0x20 // toLower
 
   // Is character within 'a' - 'z' ?
-  cmp w0, #'a'
+  cmp  w0, #'a'
   b.lt isalnum_numeric
-  cmp w0, #'z'
+  cmp  w0, #'z'
   b.gt isalnum_false
 
   // Yes: return true
@@ -70,9 +70,9 @@ isalnum:
 
 // Is character within '0' - '9' ?
 isalnum_numeric:
-  cmp w0, #'0'
+  cmp  w0, #'0'
   b.lt isalnum_false
-  cmp w0, #'9'
+  cmp  w0, #'9'
   b.gt isalnum_false
 
   // Yes: return true
@@ -82,7 +82,7 @@ isalnum_numeric:
 
 isalnum_false:
   mov w0, #0
-  
+
 isalnum_exit:
   ldp x29, x30, [sp], #16
   ret

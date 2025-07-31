@@ -6,10 +6,10 @@
 int main(int argc, char const *argv[]) {
   char names[STRLEN_MAX];
   char name[STRLEN_MAX];
-  int hasBuddy = 0;
+  int  hasBuddy = 0;
 
   fgets(names, STRLEN_MAX, stdin);
-  fgets(name, STRLEN_MAX, stdin);
+  fgets(name,  STRLEN_MAX, stdin);
 
   char* pch = strtok(names, " ");
 

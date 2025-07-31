@@ -16,19 +16,19 @@ _start:
   mov w4, #0 // Number of words
   mov w5, #0 // Number of letters
 
-while: 
+while:
   ldrb w0, [x1], #1
-  // Check if reached end of string 
-  cmp w0, #0
+  // Check if reached end of string
+  cmp  w0, #0
   b.eq average
-  cmp w0, #'\n'
+  cmp  w0, #'\n'
   b.eq average
 
   // Ensure the character is lowercase
   orr w0, w0, #0x20
 
   // Is character a space ?
-  cmp w0, #' '
+  cmp  w0, #' '
   b.ne checkLetter
 
   // Yes: we completed a word
@@ -39,14 +39,14 @@ while:
 // No: check if it's an alphabetic character
 checkLetter:
   // Is character between 'a' and 'z' inclusive ?
-  cmp w0, #'a'
+  cmp  w0, #'a'
   b.lt while
-  cmp w0, #'z'
+  cmp  w0, #'z'
   b.gt while
 
   // Yes: increment number of characters
   add w5, w5, #1
-  
+
   b while
 
 // Calculate the average
