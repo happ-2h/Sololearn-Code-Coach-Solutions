@@ -96,16 +96,16 @@ Most solutions are in C; however, I may add other unsupported languages for fun.
 <details>
   <summary>Expand Table</summary>
 
-| Problem | C | Py |
-| --- | --- | --- |
-| [2D Map](../hard/2D_Map/explanation.md) | ✓ | x |
-| [Digits of Pi](../hard/Digits_of_Pi/explanation.md) | ✓ | x |
-| [Hofstadter's Q-Sequence](../hard/Hofstadters_Q-Sequence/explanation.md) | ✓ | x |
-| [It's a Sign](../hard/Its_a_Sign/explanation.md) | ✓ | x |
-| [Mathematics](../hard/Mathematics/explanation.md) | x | ✓ |
-| [New Driver's License](../hard/New_Drivers_License/explanation.md) | ✓ | x |
-| [Password Validation](../hard/Password_Validation/explanation.md) | ✓ | x |
-| [Security](../hard/Security/explanation.md) | ✓ | x |
-| [Word Rank](../hard/Word_Rank/explanation.md) | x | ✓ |
+| Problem | C | Py | AArch64 |
+| --- | --- | --- | --- |
+| [2D Map](../hard/2D_Map/explanation.md) | ✓ | x | ✓ |
+| [Digits of Pi](../hard/Digits_of_Pi/explanation.md) | ✓ | x | ✓ |
+| [Hofstadter's Q-Sequence](../hard/Hofstadters_Q-Sequence/explanation.md) | ✓ | x | ✓ |
+| [It's a Sign](../hard/Its_a_Sign/explanation.md) | ✓ | x | ✓ |
+| [Mathematics](../hard/Mathematics/explanation.md) | x | ✓ | x |
+| [New Driver's License](../hard/New_Drivers_License/explanation.md) | ✓ | x | x |
+| [Password Validation](../hard/Password_Validation/explanation.md) | ✓ | x | ✓ |
+| [Security](../hard/Security/explanation.md) | ✓ | x | ✓ |
+| [Word Rank](../hard/Word_Rank/explanation.md) | x | ✓ | x |
 
 </details>
