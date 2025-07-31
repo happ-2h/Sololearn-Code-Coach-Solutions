@@ -13,5 +13,6 @@ _start:
   madd w0, w0, w1, w1
 
 exit:
+  mov w0, #0
   mov w8, #93
   svc 0

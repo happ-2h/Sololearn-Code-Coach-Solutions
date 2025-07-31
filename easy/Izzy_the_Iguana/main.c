@@ -5,7 +5,7 @@
 
 int main(int argc, char const *argv[]) {
   char snacks[STRLEN_MAX];
-  int snackPts = 0;
+  int  snackPts = 0;
 
   fgets(snacks, STRLEN_MAX, stdin);
 

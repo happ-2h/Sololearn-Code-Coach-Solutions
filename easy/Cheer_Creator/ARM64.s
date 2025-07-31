@@ -8,11 +8,11 @@ _start:
   mov w8, #64 // syswrite
 
   // Number of yards > 5 ?
-  cmp w5, #10
+  cmp  w5, #10
   b.gt highFive
 
   // No: number of yards < 1 ?
-  cmp w5, #1
+  cmp  w5, #1
   b.lt shh
 
   // Prepare "Ra!" string
@@ -31,7 +31,7 @@ whileYards:
 highFive:
   ldr x1, =str_highFive
   mov w2, #10
-  b endif
+  b   endif
 
 // Yards < 1 ? prepare "shh"
 shh:

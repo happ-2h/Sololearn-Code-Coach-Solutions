@@ -19,7 +19,7 @@ _start:
   mul w2, w2, w3
 
   // Area of A < area of B ?
-  cmp w0, w2
+  cmp  w0, w2
   b.lt aLTb
   // No: Area of B < A
   ldr x1, =str_a

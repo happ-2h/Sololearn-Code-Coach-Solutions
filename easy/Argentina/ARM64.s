@@ -13,13 +13,13 @@ _start:
   mul w3, w1, w2
 
   // Pesos < Dollars ?
-  cmp w0, w3
+  cmp  w0, w3
   b.lt pLTd
 
   // No: Dollars < Pesos
   ldr x1, =str_dollars
   mov x2, #8
-  b endif
+  b   endif
 
 // Yes: Pesos < Dollars
 pLTd:

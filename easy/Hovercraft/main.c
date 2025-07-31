@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]) {
   /*
     Calculate the profit
 
-    If the sales exceed the monthly costs  (negative): profit
+    If the sales exceed  the monthly costs (negative): profit
     If the sales subceed the monthly costs (positive): loss
     If the sales matched the monthly costs (zero):     broke even
    */

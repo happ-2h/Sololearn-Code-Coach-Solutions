@@ -20,5 +20,6 @@ _start:
   fmov x0, d0
 
 exit:
+  mov w0, #0
   mov w8, #93
   svc 0

@@ -12,7 +12,7 @@ _start:
   add w3, w2, w1
 
   // Total found < total hidden ?
-  cmp w3, w0
+  cmp  w3, w0
   b.lt foundLThidden
 
   // No: prepare string "Candy Time"
@@ -31,7 +31,7 @@ endif:
   mov w0, #1
   mov w8, #64
   svc 0
-  
+
 exit:
   mov w0, #0
   mov w8, #93

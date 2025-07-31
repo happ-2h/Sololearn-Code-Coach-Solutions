@@ -6,7 +6,7 @@
 _start:
   mov w0, #5 // Number of hovercrafts sold
 
-  cmp w0, #7
+  cmp  w0, #7
   b.gt profit
   b.lt loss
 

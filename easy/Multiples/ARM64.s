@@ -12,7 +12,7 @@ _start:
   // Parameter n / 3
   mov  w4, #3
   sdiv w0, w5, w4
-  bl sum
+  bl   sum
 
   // 3 * sum(n / 3)
   mul w1, w0, w4
@@ -20,7 +20,7 @@ _start:
   // Parameter n / 5
   mov  w4, #5
   sdiv w0, w5, w4
-  bl sum
+  bl   sum
 
   // 5 * sum(n / 5)
   mul w2, w0, w4
@@ -28,12 +28,12 @@ _start:
   // Parameter n / 15
   mov  w4, #15
   sdiv w0, w5, w4
-  bl sum
+  bl   sum
 
   // 15 * sum(n / 15)
   mul w3, w0, w4
 
-  add w0, w1, w2 // (3 * sum(n/3)) + (5*sum(n/5))
+  add w0, w1, w2 // (3 * sum(n/3)) + (5 * sum(n/5))
   sub w0, w0, w3 // Previous result - (15 * sum(n/15))
 
 exit:

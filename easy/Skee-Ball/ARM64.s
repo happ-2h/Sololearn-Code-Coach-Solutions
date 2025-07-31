@@ -11,7 +11,7 @@ _start:
   sdiv w0, w0, w2 // Number of tickets earned
 
   // Tickets >= cost ?
-  cmp w0, w1
+  cmp  w0, w1
   b.ge buy
 
   // No: prepare "Try again"

@@ -10,7 +10,7 @@ _start:
   mov w0, #0 // Number of set bits
 
 while:
-  cmp w5, #0
+  cmp  w5, #0
   b.eq exit
 
   // N = N & (N - 1)

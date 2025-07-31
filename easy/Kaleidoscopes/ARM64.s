@@ -14,7 +14,7 @@ _start:
   fmul  d0, d0, d1
 
   // Kaledioscopes <= 1 ?
-  cmp w0, #1
+  cmp  w0, #1
   b.le addTax
 
   // No: provide discount

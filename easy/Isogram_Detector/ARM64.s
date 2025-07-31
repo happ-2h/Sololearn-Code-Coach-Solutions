@@ -15,7 +15,7 @@ _start:
 loop:
   ldrb w5, [x1], #1
   // Reached the end ? is an isogram
-  cmp w5, 0x0A
+  cmp  w5, 0x0A
   b.eq true
 
   // Ensure the letter is lowercase
@@ -29,12 +29,12 @@ loop:
   add x0, x0, #1
 
   // Result >= 2 ? not an isogram
-  cmp x0, #2
+  cmp  x0, #2
   b.ge false
 
   // Save charCount + 1
   str w0, [x2, x5, lsl #2]
-  b loop
+  b   loop
 
 // Not an isogram. Prepare "false"
 false:
@@ -47,7 +47,7 @@ false:
 true:
   ldr x1, =str_true
   mov w2, #4
-  
+
 // Print result
 print:
   mov w0, #1
