@@ -11,11 +11,8 @@ _start:
   mov w8, #63
   svc 0
 
-  // Evaluate length of string
-  mov x0, x1
-  bl  strlen
-
   // Must be 5 characters
+  sub  w0, w0, #1 // Don't count newline
   cmp  w0, #5
   b.ne start_false
 
@@ -83,40 +80,6 @@ isOnlyNums_false:
   b   isOnlyNums_exit
 
 isOnlyNums_exit:
-  ldp x29, x30, [sp], #16
-  ret
-
-/**
- * @brief Calculates the length of the given string
- *
- * @param[in] x0 - String to check
- *
- * @returns Length of the string
- */
-strlen:
-  stp x29, x30, [sp, #-16]!
-
-  mov w5, #0 // Counter
-while:
-  ldrb w1, [x0], #1
-  // Check if reached null terminator
-  cmp w1, #0
-  b.eq while_exit
-  // Check if reached newline
-  cmp w1, #'\n'
-  b.eq while_exit
-
-  // Increment counter
-  add w5, w5, #1
-
-  // Limit string check to 16 characters
-  cmp w5, #16
-  b.gt while_exit
-
-  b while
-
-while_exit:
-  mov w0, w5
   ldp x29, x30, [sp], #16
   ret
 
