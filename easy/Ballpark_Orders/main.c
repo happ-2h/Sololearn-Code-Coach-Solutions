@@ -18,6 +18,8 @@ int main(int argc, char const *argv[]) {
     ) ttl += 6.00f;
     else if (strncmp(orders[i], "Cheeseburger", STRLEN_MAX) == 0)
       ttl += 10.00f;
+    else if (strncmp(orders[i], "Water", STRLEN_MAX) == 0)
+      ttl += 4.00f;
     else
       ttl += 5.00f;
   }
