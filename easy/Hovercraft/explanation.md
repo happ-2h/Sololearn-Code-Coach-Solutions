@@ -52,17 +52,17 @@ $$
 Combining constants can reduce the number of calculations needed
 
 $$
-paymentsPerMonth = 10 \times 2 + 1 \rightarrow 21 \newline
-profit = 21 - hovercraftsSold \times 3 \newline
+paymentsPerMonth = 10 \times 2 + 1 \rightarrow 21 \\\\
+profit = 21 - hovercraftsSold \times 3 \\\\
 $$
 
 Break even when profit is 0
 
 $$
-0 = 21 - hovercraftsSold \times 3 \newline
--21 = -hovercraftsSold \times 3 \newline
-\frac{-21}{-3} = hovercraftsSold \newline
-7 = hovercraftsSold \newline
+0 = 21 - hovercraftsSold \times 3 \\\\
+-21 = -hovercraftsSold \times 3 \\\\
+\frac{-21}{-3} = hovercraftsSold \\\\
+7 = hovercraftsSold \\\\
 \text{Break even when 7 hovercrafts have been sold}
 $$
 
