@@ -52,7 +52,7 @@ $$
 Combining constants can reduce the number of calculations needed
 
 $$
-paymentsPerMonth = 10 \times 2 + 1 \rArr 21 \newline
+paymentsPerMonth = 10 \times 2 + 1 \rightarrow 21 \newline
 profit = 21 - hovercraftsSold \times 3 \newline
 $$
 
