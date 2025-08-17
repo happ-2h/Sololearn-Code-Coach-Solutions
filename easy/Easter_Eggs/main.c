@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-  int ttlEggs     = 0;
-  int nMyEggs     = 0;
+  int ttlEggs      = 0;
+  int nMyEggs      = 0;
   int nFriendsEggs = 0;
 
   scanf("%d%d%d", &ttlEggs, &nMyEggs, &nFriendsEggs);
