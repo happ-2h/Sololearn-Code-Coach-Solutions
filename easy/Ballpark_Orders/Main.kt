@@ -1,6 +1,7 @@
 fun main() {
   var total  = 0.0
-  val orders = readln()
+
+  readln()
     .split(" ")
     .forEach {
       total += when(it) {
