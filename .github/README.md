@@ -53,40 +53,40 @@ Most solutions are in C; however, I may add other unsupported languages for fun.
 <details>
   <summary>Expand Table</summary>
 
-| Problem | C | AArch64 |
-| --- | --- | --- |
-| [Average Word Length](../medium/Average_Word_Length/explanation.md) | ✓ | ✓ |
-| [Building Blocks](../medium/Building_Blocks/explanation.md) | ✓ | ✓ |
-| [Camel to Snake](../medium/Camel_to_Snake/explanation.md) | ✓ | ✓ |
-| [Carrot Cake](../medium/Carrot_Cake/explanation.md) | ✓ | ✓ |
-| [CMYK to RGB](../medium/CMYK_to_RGB/explanation.md) | ✓ | ✓ |
-| [Credit Card Validator](../medium/Credit_Card_Validator/explanation.md) | ✓ | ✓ |
-| [Deja Vu](../medium/Deja_Vu/explanation.md) | ✓ | ✓ |
-| [Divisible](../medium/Divisible/explanation.md) | ✓ | x |
-| [Duty Free](../medium/Duty_Free/explanation.md) | ✓ | x |
-| [Even Numbers](../medium/Even_Numbers/explanation.md) | ✓ | x |
-| [Flowing Words](../medium/Flowing_Words/explanation.md) | ✓ | ✓ |
-| [Hex Color Code Generator](../medium/Hex_Color_Code_Generator/explanation.md) | ✓ | ✓ |
-| [How Far?](../medium/How_Far/explanation.md) | ✓ | ✓ |
-| [Initials](../medium/Initials/explanation.md) | ✓ | x |
-| [Military Time](../medium/Military_Time/explanation.md) | ✓ | x |
-| [Missing Numbers](../medium/Missing_Numbers/explanation.md) | ✓ | x |
-| [Name Buddy](../medium/Name_Buddy/explanation.md) | ✓ | ✓ |
-| [No Numerals](../medium/No_Numerals/explanation.md) | ✓ | x |
-| [Pig Latin](../medium/Pig_Latin/explanation.md) | ✓ | x |
-| [Roadrunner](../medium/Roadrunner/explanation.md) | ✓ | ✓ |
-| [Safety Deposit Boxes](../medium/Safety_Deposit_Boxes/explanation.md) | ✓ | x |
-| [Secret Message](../medium/Secret_Message/explanation.md) | ✓ | ✓ |
-| [Snap, Crackle and Pop](../medium/Snap_Crackle_and_Pop/explanation.md) | ✓ | ✓ |
-| [Snowballing Numbers](../medium/Snowballing_Numbers/explanation.md) | ✓ | x |
-| [Splitting Strings](../medium/Splitting_Strings/explanation.md) | ✓ | x |
-| [Super Sale](../medium/Super_Sale/explanation.md) | ✓ | ✓ |
-| [Symbols](../medium/Symbols/explanation.md) | ✓ | ✓ |
-| [Tax Free](../medium/Tax_Free/explanation.md) | ✓ | ✓ |
-| [Text Decompressor](../medium/Text_Decompressor/explanation.md) | ✓ | ✓ |
-| [That's Odd...](../medium/Thats_Odd/explanation.md) | ✓ | ✓ |
-| [The Spy Life](../medium/The_Spy_Life/explanation.md) | ✓ | ✓ |
-| [YouTube Link Finder](../medium/YouTube_Link_Finder/explanation.md) | ✓ | ✓ |
+| Problem | C | AArch64 | Kotlin |
+| --- | :---: | :---: | :---: |
+| [Average Word Length](../medium/Average_Word_Length/explanation.md) | ✓ | ✓ | ✓ |
+| [Building Blocks](../medium/Building_Blocks/explanation.md) | ✓ | ✓ | ✓ |
+| [Camel to Snake](../medium/Camel_to_Snake/explanation.md) | ✓ | ✓ | ✓ |
+| [Carrot Cake](../medium/Carrot_Cake/explanation.md) | ✓ | ✓ | ✓ |
+| [CMYK to RGB](../medium/CMYK_to_RGB/explanation.md) | ✓ | ✓ | ✓ |
+| [Credit Card Validator](../medium/Credit_Card_Validator/explanation.md) | ✓ | ✓ | ✓ |
+| [Deja Vu](../medium/Deja_Vu/explanation.md) | ✓ | ✓ | ✓ |
+| [Divisible](../medium/Divisible/explanation.md) | ✓ | x | ✓ |
+| [Duty Free](../medium/Duty_Free/explanation.md) | ✓ | x | ✓ |
+| [Even Numbers](../medium/Even_Numbers/explanation.md) | ✓ | x | ✓ |
+| [Flowing Words](../medium/Flowing_Words/explanation.md) | ✓ | ✓ | ✓ |
+| [Hex Color Code Generator](../medium/Hex_Color_Code_Generator/explanation.md) | ✓ | ✓ | ✓ |
+| [How Far?](../medium/How_Far/explanation.md) | ✓ | ✓ | ✓ |
+| [Initials](../medium/Initials/explanation.md) | ✓ | x | ✓ |
+| [Military Time](../medium/Military_Time/explanation.md) | ✓ | x | ✓ |
+| [Missing Numbers](../medium/Missing_Numbers/explanation.md) | ✓ | x | ✓ |
+| [Name Buddy](../medium/Name_Buddy/explanation.md) | ✓ | ✓ | ✓ |
+| [No Numerals](../medium/No_Numerals/explanation.md) | ✓ | x | ✓ |
+| [Pig Latin](../medium/Pig_Latin/explanation.md) | ✓ | x | ✓ |
+| [Roadrunner](../medium/Roadrunner/explanation.md) | ✓ | ✓ | ✓ |
+| [Safety Deposit Boxes](../medium/Safety_Deposit_Boxes/explanation.md) | ✓ | x | ✓ |
+| [Secret Message](../medium/Secret_Message/explanation.md) | ✓ | ✓ | ✓ |
+| [Snap, Crackle and Pop](../medium/Snap_Crackle_and_Pop/explanation.md) | ✓ | ✓ | ✓ |
+| [Snowballing Numbers](../medium/Snowballing_Numbers/explanation.md) | ✓ | x | ✓ |
+| [Splitting Strings](../medium/Splitting_Strings/explanation.md) | ✓ | x | ✓ |
+| [Super Sale](../medium/Super_Sale/explanation.md) | ✓ | ✓ | ✓ |
+| [Symbols](../medium/Symbols/explanation.md) | ✓ | ✓ | ✓ |
+| [Tax Free](../medium/Tax_Free/explanation.md) | ✓ | ✓ | ✓ |
+| [Text Decompressor](../medium/Text_Decompressor/explanation.md) | ✓ | ✓ | ✓ |
+| [That's Odd...](../medium/Thats_Odd/explanation.md) | ✓ | ✓ | ✓ |
+| [The Spy Life](../medium/The_Spy_Life/explanation.md) | ✓ | ✓ | ✓ |
+| [YouTube Link Finder](../medium/YouTube_Link_Finder/explanation.md) | ✓ | ✓ | ✓ |
 
 </details>
 
