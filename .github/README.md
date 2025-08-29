@@ -16,34 +16,34 @@ Most solutions are in C; however, I may add other unsupported languages for fun.
 <details>
   <summary>Expand Table</summary>
 
-| Problem | C | AArch64 | Kotlin |
-| --- | :---: | :---: | :---: |
-| [Argentina](../easy/Argentina/explanation.md) | ✓ | ✓ | ✓ |
-| [Balconies](../easy/Balconies/explanation.md) | ✓ | ✓ | ✓ |
-| [Ballpark Orders](../easy/Ballpark_Orders/explanation.md) | ✓ | x | ✓ |
-| [Candles](../easy/Candles/explanation.md) | ✓ | ✓ | ✓ |
-| [Cheer Creator](../easy/Cheer_Creator/explanation.md) | ✓ | ✓ | ✓ |
-| [Duct Tape](../easy/Duct_Tape/explanation.md) | ✓ | ✓ | ✓ |
-| [Easter Eggs](../easy/Easter_Eggs/explanation.md) | ✓ | ✓ | ✓ |
-| [Extra-Terrestrials](../easy/Extra-Terrestrials/explanation.md) | ✓ | ✓ | ✓ |
-| [Fruit Bowl](../easy/Fruit_Bowl/explanation.md) | ✓ | ✓ | ✓ |
-| [Gotham City](../easy/Gotham_City/explanation.md) | ✓ | ✓ | ✓ |
-| [Guard Flamingos](../easy/Guard_Flamingos/explanation.md) | ✓ | ✓ | ✓ |
-| [Halloween Candy](../easy/Halloween_Candy/explanation.md) | ✓ | ✓ | ✓ |
-| [Hovercraft](../easy/Hovercraft/explanation.md) | ✓ | ✓ | ✓ |
-| [Isogram Detector](../easy/Isogram_Detector/explanation.md) | ✓ | ✓ | ✓ |
-| [Izzy the Iguana](../easy/Izzy_the_Iguana/explanation.md) | ✓ | x | ✓ |
-| [Jungle Camping](../easy/Jungle_Camping/explanation.md) | ✓ | x | ✓ |
-| [Kaleidoscopes](../easy/Kaleidoscopes/explanation.md) | ✓ | ✓ | ✓ |
-| [Land Ho!](../easy/Land_Ho/explanation.md) | ✓ | ✓ | ✓ |
-| [Multiples](../easy/Multiples/explanation.md) | ✓ | ✓ | ✓ |
-| [Neverland](../easy/Neverland/explanation.md) | ✓ | x | ✓ |
-| [Number of Ones](../easy/Number_of_Ones/explanation.md) | ✓ | ✓ | ✓ |
-| [Paint Costs](../easy/Paint_Costs/explanation.md) | ✓ | ✓ | ✓ |
-| [Popsicles](../easy/Popsicles/explanation.md) | ✓ | ✓ | ✓ |
-| [Skee-Ball](../easy/Skee-Ball/explanation.md) | ✓ | ✓ | ✓ |
-| [Vowel Counter](../easy/Vowel_Counter/explanation.md) | ✓ | ✓ | ✓ |
-| [Zip Code Validator](../easy/Zip_Code_Validator/explanation.md) | ✓ | ✓ | ✓ |
+| Problem | C | AArch64 | Kotlin | Go |
+| --- | :---: | :---: | :---: | :---: |
+| [Argentina](../easy/Argentina/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Balconies](../easy/Balconies/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Ballpark Orders](../easy/Ballpark_Orders/explanation.md) | ✓ | x | ✓ | ✓ |
+| [Candles](../easy/Candles/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Cheer Creator](../easy/Cheer_Creator/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Duct Tape](../easy/Duct_Tape/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Easter Eggs](../easy/Easter_Eggs/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Extra-Terrestrials](../easy/Extra-Terrestrials/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Fruit Bowl](../easy/Fruit_Bowl/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Gotham City](../easy/Gotham_City/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Guard Flamingos](../easy/Guard_Flamingos/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Halloween Candy](../easy/Halloween_Candy/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Hovercraft](../easy/Hovercraft/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Isogram Detector](../easy/Isogram_Detector/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Izzy the Iguana](../easy/Izzy_the_Iguana/explanation.md) | ✓ | x | ✓ | ✓ |
+| [Jungle Camping](../easy/Jungle_Camping/explanation.md) | ✓ | x | ✓ | ✓ |
+| [Kaleidoscopes](../easy/Kaleidoscopes/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Land Ho!](../easy/Land_Ho/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Multiples](../easy/Multiples/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Neverland](../easy/Neverland/explanation.md) | ✓ | x | ✓ | ✓ |
+| [Number of Ones](../easy/Number_of_Ones/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Paint Costs](../easy/Paint_Costs/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Popsicles](../easy/Popsicles/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Skee-Ball](../easy/Skee-Ball/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Vowel Counter](../easy/Vowel_Counter/explanation.md) | ✓ | ✓ | ✓ | ✓ |
+| [Zip Code Validator](../easy/Zip_Code_Validator/explanation.md) | ✓ | ✓ | ✓ | ✓ |
 
 </details>
 
